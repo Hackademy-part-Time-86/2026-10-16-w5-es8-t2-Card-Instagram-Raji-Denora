@@ -1,0 +1,99 @@
+/* ---------------------------------------------- Generale -------------------------------------------------------- */
+:root{
+        --icon-story-size:2.25rem;
+        
+}
+.card{
+        
+        width: 27rem;
+        min-height: 30rem;
+        margin: auto;
+}
+
+.logo{    
+        max-height: 100%;     
+}
+p{
+        margin-bottom: 0.3rem;
+}
+/* ------------------------------------------- Stile navbar ----------------------------------------------------*/
+.instagram-gradient-border {
+  /* Gradiente ufficiale stile Instagram */
+  height: var(--icon-story-size);
+  width: var(--icon-story-size);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.instagram-img-stories{
+        height: 1.8rem;
+        width: 1.8rem;
+}
+
+.background-logo{
+        height: 2rem;
+        width: 2rem;   
+}
+
+
+
+h3{
+        font-size: 0.7rem;
+}
+.dot{
+        height:1.5rem;
+        width: 1.5rem;
+}
+
+/* -----------------------------------------------Carosello ------------------------------- */
+.carousel-inner .carousel-item {
+        height: 20rem;  
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Taglia l'immagine proporzionalmente senza distorcerla */
+ object-position: center;/* Mantiene il focus sul centro dell'immagine */
+}
+/* --------------------------------------------- Liked by bar ------------------------------------ */
+h5, .card-likedby, p{
+        font-size: 0.5rem;
+        
+}
+span{   
+        font-weight: 500;
+}
+.instagram-img-likes-logo{
+        height: 1.3rem;
+        width: 1.3rem;
+}
+
+.background-loghetto{
+        height: 2.2rem;
+        width: 2.2rem;   
+}
+
+.color-gray{
+        color: gray;
+}
+
+.fs{
+        font-size: 0.4rem;
+}
+
+/* ----------input bar comment ---------------------- */
+.emoji{
+
+        height: 1.1rem;
+        width: 1.5rem;   
+}
+
+input{  
+        font-size: 0.7rem;
+        font-weight: 200;
+        border-style: none;
+}
+
+.btn-outline-info{
+        border-color: #2859eb00;
+}
