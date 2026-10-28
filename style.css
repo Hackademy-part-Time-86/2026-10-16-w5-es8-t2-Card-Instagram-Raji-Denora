@@ -55,6 +55,10 @@ h3{
   object-fit: cover; /* Taglia l'immagine proporzionalmente senza distorcerla */
  object-position: center;/* Mantiene il focus sul centro dell'immagine */
 }
+.background-loghetto{
+        height: 2.2rem;
+        width: 2.2rem;   
+}
 /* --------------------------------------------- Liked by bar ------------------------------------ */
 h5, .card-likedby, p{
         font-size: 0.5rem;
@@ -68,9 +72,32 @@ span{
         width: 1.3rem;
 }
 
-.background-loghetto{
-        height: 2.2rem;
-        width: 2.2rem;   
+.background-img-likes-logo{
+        height: 1.5rem;
+        width: 1.5rem;
+}
+
+.comment-logo-container{
+
+        height: 1.8rem;
+        width: 3rem;
+
+}
+
+.comment-logo-first,
+.comment-logo-second{
+        top: 50%;
+        transform: translateY(-50%);
+}
+
+.comment-logo-first{
+        left: 0;
+        z-index: 2;
+}
+
+.comment-logo-second{
+        left: 0.75rem;
+        z-index: 1;
 }
 
 .color-gray{
@@ -89,8 +116,8 @@ span{
 }
 
 input{  
-        font-size: 0.7rem;
-        font-weight: 200;
+        font-size: 0.6rem;
+        
         border-style: none;
 }
 
